@@ -57,7 +57,13 @@ xlabel('Frequency Index k');
 ylabel('Phase (radians)');
 grid on;
 
-## OUTPUT
+## sample OUTPUT
+<img width="698" height="419" alt="image" src="https://github.com/user-attachments/assets/2008c38c-f24c-4381-b7ef-240f894ad74c" />
+
+
+
+## your output 
+
 
 ## RESULT:
 Thus,the FFT of the sequence was plotted using MATLAB.
