@@ -1,4 +1,4 @@
-## EXP NO: 02	RADIX-2 DECIMATION IN TIME FFT  
+## EXP NO: 06	RADIX-2 DECIMATION IN TIME FFT  
 ## DATE :
 ## Aim:
 To implement the Radix-2 Decimation-in-Time (DIT) Fast Fourier Transform (FFT) algorithm in MATLAB and analyze the frequency-domain representation of a given discrete-time sequence..
@@ -25,6 +25,7 @@ Magnitude spectrum
 Phase spectrum
 •  Stop the program.
 ## MATLAB CODE
+~~~
 clc;
 clear;
 close all;
@@ -83,22 +84,10 @@ stem(0:N-1, phaseX, 'filled');
 xlabel('k'); ylabel('Phase (radians)');
 title('Phase Spectrum');
 grid on;
-
-
-
-
-
-
-
+~~~
 
 ## OUTPUT
- 
-
-
-
-
-
-
+ <img width="1070" height="1016" alt="image" src="https://github.com/user-attachments/assets/931b70dd-30ff-4485-bb57-03619afff2ff" />
 
 ## RESULT:
 Thus,  Radix-2 Decimation-in-Time  (DIT) FFT algorithm was implemented using MATLAB
