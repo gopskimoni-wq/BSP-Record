@@ -1,4 +1,4 @@
-## EXP NO:03	DESIGN OF DIGITAL BUTTERWORTH IIR FILTER 
+## EXP NO:01	DESIGN OF DIGITAL BUTTERWORTH IIR FILTER 
 ## DATE :
 ## AIM:
 
@@ -18,6 +18,7 @@ To design a digital Butterworth filter using bilinear method satisfying the cons
 	Save and run the program
 
 ## PROGRAM:
+~~~
 clear all
 clc
 
@@ -59,14 +60,15 @@ plot(w/pi,Hw_mag,'k');grid;
 title('Magnitude Response of Butterworth 3rd order Lowpass Filter','fontweight','b');
 xlabel('Normalised frequency, \omega/\pi','fontweight','b');
 ylabel('Magnitude','fontweight','b');
-
+~~~
 
 
 
 ## OUTPUT
 
 
- 
+ <img width="914" height="895" alt="image" src="https://github.com/user-attachments/assets/09b393b6-6ce3-440a-995a-9cef89efa0ad" />
+
 
 
 
