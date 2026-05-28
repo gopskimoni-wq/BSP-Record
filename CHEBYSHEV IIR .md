@@ -1,4 +1,4 @@
-## EXP NO: 4	DESIGN OF DIGITAL CHEBYSHEV IIR FILTER
+## EXP NO: 02	DESIGN OF DIGITAL CHEBYSHEV IIR FILTER
 
 ## DATE :
 
@@ -20,6 +20,7 @@ To design a digital Chebyshev filter using bilinear method satisfying the constr
 	Save and run the program.
 
 ## PROGRAM:
+~~~
 clear all
 clc
 
@@ -58,11 +59,12 @@ plot(w/pi,Hw_mag,'k');grid;
 title('Magnitude Response of Chebyshev 3rd order Lowpass Filter','fontweight','b');
 xlabel('Normalised frequency, \omega/\pi','fontweight','b');
 ylabel('Magnitude','fontweight','b');
-
+~~~
 
 
 
 ## OUTPUT
+<img width="893" height="895" alt="image" src="https://github.com/user-attachments/assets/6155ce18-b688-4473-970d-ff02c4a8c36a" />
 
 
 
