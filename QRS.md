@@ -1,4 +1,4 @@
-## EXP NO:	QRS COMPLEX DETECTION FROM ECG SIGNAL
+## EXP NO: 04	QRS COMPLEX DETECTION FROM ECG SIGNAL
 ## DATE :
 
 ## AIM
@@ -34,6 +34,7 @@ o	Remove baseline drift using a high-pass filter (cutoff ≈ 0.5 Hz).
 
 
 ## MATLAB Code:
+~~~
 % ECG Signal Analysis in MATLAB
 
 % Step 1: Load the ECG signal
@@ -75,9 +76,10 @@ Sample Output:
 •	ECG waveform plotted with identified R-peaks.
 •	Display of average heart rate (e.g., Average Heart Rate = 76.45 bpm).
 •	Clean, denoised ECG signal after filtering.
-
+~~~
 ## OUTPUT
  
+<img width="883" height="872" alt="image" src="https://github.com/user-attachments/assets/f5735318-3ef8-422b-aa30-ff5116a92f21" />
 
 
 ## RESULT:
