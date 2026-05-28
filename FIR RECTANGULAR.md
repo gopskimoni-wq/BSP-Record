@@ -1,4 +1,4 @@
-## EXP NO: 	DESIGN OF FIR FILTER USING RECTANGULAR WINDOWS 
+## EXP NO: 03 	DESIGN OF FIR FILTER USING RECTANGULAR WINDOWS 
 ## DATE :
 
 ## AIM:
@@ -12,7 +12,7 @@ To design a linear phase FIR band stop filter to reject frequencies in the range
 	Plot the magnitude and phase angle for LPF.HPF,BPF&BSF.
 	Give the x label and ylabel and title it.
 ## PROGRAM:
-
+~~~
 Clear all
 Clc
 Wc1 = .4*pi;
@@ -47,8 +47,9 @@ Plot(w/pi,H_mag, ‘k’); grid;
 Title(‘Magnitude response’, ‘font weight’ , ‘b’);
 xlabel(‘Normalised frequency,\omega/\pi’, ‘font weight’, ‘b’);
 ylabel (‘Magnitude’, ‘font weight’, ‘b’);
-
+~~~
 ## OUTPUT 
+<img width="877" height="863" alt="image" src="https://github.com/user-attachments/assets/f32d91b3-4aa3-4761-949d-7972e562efe5" />
 
 ## RESULT
 Thus the FIR filter with the given specifications was designed using rectangular windowing technique.
