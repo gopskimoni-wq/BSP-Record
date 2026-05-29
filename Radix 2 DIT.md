@@ -1,5 +1,5 @@
 ## EXP NO: 06	RADIX-2 DECIMATION IN TIME FFT  
-## DATE : 16.05.2026
+## DATE : 02.05.2026
 ## Aim:
 To implement the Radix-2 Decimation-in-Time (DIT) Fast Fourier Transform (FFT) algorithm in MATLAB and analyze the frequency-domain representation of a given discrete-time sequence..
 ## Requirements:
