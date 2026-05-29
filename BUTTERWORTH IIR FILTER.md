@@ -1,5 +1,5 @@
 ## EXP NO:01	DESIGN OF DIGITAL BUTTERWORTH IIR FILTER 
-## DATE :
+## DATE : 24.04.2026
 ## AIM:
 
 To design a digital Butterworth filter using bilinear method satisfying the constraints using matlab. Assume T=1 sec
